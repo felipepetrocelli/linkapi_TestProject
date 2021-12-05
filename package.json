@@ -1,0 +1,29 @@
+{
+  "name": "linkapi_testproject",
+  "version": "1.0.0",
+  "description": "projeto teste ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipepetrocelli/linkapi_TestProject.git"
+  },
+  "author": "Felipe Petrocelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipepetrocelli/linkapi_TestProject/issues"
+  },
+  "homepage": "https://github.com/felipepetrocelli/linkapi_TestProject#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongose": "0.0.2-security",
+    "nodemon": "^2.0.15"
+  }
+}
